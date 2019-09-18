@@ -1,0 +1,12 @@
+http://localhost:8085/token
+{ 
+	"subject":"dhananjaya", 
+	"id":"9885", 
+	"role": "admin"
+}
+
+Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5ODg1Iiwicm9sZSI6ImFkbWluIn0.lhHv5Q7U4mvIE2RLhJUeSiPV69C1ywAZYpw3aoAB41hMX_-MByovf1eSJWbYIA8-aRDG-AxvEqGhvh5k-r0ebg
+
+
+http://localhost:8085/api/hello
+Authorization:{{jwt}}
